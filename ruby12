@@ -1,0 +1,10 @@
+i
+puts"enter the age"
+age= Integer(gets.chomp)
+  if age >20
+puts "u are eligible to apply"
+  elsif age <20
+puts"OOPS WAIT SOME MORE"
+  else 
+puts"u cannot apply"
+end
